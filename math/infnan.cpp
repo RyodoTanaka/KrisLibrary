@@ -9,6 +9,8 @@ namespace Math {
   using std::isfinite;
 #endif
 
+  using namespace std;
+  
 int IsNaN(double x)
 {
 #ifdef _MSC_VER
